@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Post No Bills Colombo';
+    src: url('PostNoBillsColombo-Light.eot');
+    src: url('PostNoBillsColombo-Light.eot?#iefix') format('embedded-opentype'),
+        url('PostNoBillsColombo-Light.woff2') format('woff2'),
+        url('PostNoBillsColombo-Light.woff') format('woff'),
+        url('PostNoBillsColombo-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Post No Bills Colombo';
+    src: url('PostNoBillsColombo-ExtraBold.eot');
+    src: url('PostNoBillsColombo-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('PostNoBillsColombo-ExtraBold.woff2') format('woff2'),
+        url('PostNoBillsColombo-ExtraBold.woff') format('woff'),
+        url('PostNoBillsColombo-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Post No Bills Colombo';
+    src: url('PostNoBillsColombo-Bold.eot');
+    src: url('PostNoBillsColombo-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PostNoBillsColombo-Bold.woff2') format('woff2'),
+        url('PostNoBillsColombo-Bold.woff') format('woff'),
+        url('PostNoBillsColombo-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Post No Bills Colombo';
+    src: url('PostNoBillsColombo-Medium.eot');
+    src: url('PostNoBillsColombo-Medium.eot?#iefix') format('embedded-opentype'),
+        url('PostNoBillsColombo-Medium.woff2') format('woff2'),
+        url('PostNoBillsColombo-Medium.woff') format('woff'),
+        url('PostNoBillsColombo-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Post No Bills Colombo';
+    src: url('PostNoBillsColombo-Regular.eot');
+    src: url('PostNoBillsColombo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PostNoBillsColombo-Regular.woff2') format('woff2'),
+        url('PostNoBillsColombo-Regular.woff') format('woff'),
+        url('PostNoBillsColombo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Post No Bills Colombo';
+    src: url('PostNoBillsColombo-SemiBold.eot');
+    src: url('PostNoBillsColombo-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('PostNoBillsColombo-SemiBold.woff2') format('woff2'),
+        url('PostNoBillsColombo-SemiBold.woff') format('woff'),
+        url('PostNoBillsColombo-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

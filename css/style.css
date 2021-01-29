@@ -1,0 +1,603 @@
+/* font-family: 'Playfair Display SC'; */
+/* font-family: 'Post No Bills Colombo'; */
+/* font-family: 'PT Sans'; */
+
+/* ---------COMMON---------- */
+
+h2 {
+  position: relative;
+  font-family: "Playfair Display SC";
+  text-transform: uppercase;
+  width: fit-content;
+  margin-bottom: 40px;
+}
+
+h2:after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 12px 28px;
+}
+h3 {
+  font-family: "Playfair Display SC";
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 40px;
+  align-items: center;
+}
+/* ---------COMMON---------- */
+
+/* ----------HEADER--------- */
+.topnav {
+  background-color: #000;
+  height: 44px;
+  font-family: "PT Sans";
+  color: #969696;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.topnav_contacts,
+.topnav_contacts a,
+.topnav_account {
+  display: flex;
+  align-items: center;
+}
+
+.topnav_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topnav_contacts img {
+  width: 16px;
+  margin-right: 16px;
+}
+.topnav_devider {
+  padding: 0px 10px;
+}
+.topnav_account img {
+  width: 14px;
+  margin-right: 10px;
+}
+.navbar {
+  position: relative;
+  height: 80px;
+  background-color: #0f0f0f;
+  color: #ffffff;
+  display: flex;
+}
+.navbar_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-family: "Post No Bills Colombo";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+}
+.nav_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_links a {
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding: 31px 20px;
+  color: #969696;
+}
+.nav_links a:hover {
+  background-color: #1f1f1f;
+  color: #fff;
+  cursor: pointer;
+}
+.logo_sqare {
+  position: absolute;
+  left: 50%;
+  top: 160px;
+  transform: translateX(-50%);
+  height: 320px;
+  width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 4px solid #fff;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.logo_sqare h1 {
+  font-family: "Post No Bills Colombo";
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 96px;
+  border-bottom: 2px solid #fff;
+}
+.logo_sqare small {
+  font-family: "PT Sans";
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.logo_sqare_info {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 700%;
+  transform: translateX(-50%);
+  font-family: "PT Sans";
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: uppercase;
+  width: 730px;
+}
+.banner {
+  background-image: url(../img/bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+.burger {
+  display: none;
+}
+
+/* -------HEADER----------- */
+
+/* --------SEASON------- */
+.season {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.season_blocks {
+  width: 55%;
+  background-color: black;
+}
+.season_blocks h2,
+.section_tree_wrap h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 93px auto 40px auto;
+}
+
+.season_collections {
+  width: 45%;
+  background-image: url("../img/Rectangle\ 8.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.collection_block h2 {
+  margin-bottom: 70px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.collection_block h2 {
+  margin-bottom: 70px;
+}
+
+.season_block,
+.season_block2 {
+  margin-top: 70px;
+  display: flex;
+  flex-flow: wrap;
+  margin-bottom: 93px;
+  padding: 0px 55px;
+}
+
+.season_block article {
+  width: 33.33%;
+  padding: 0px 25px;
+}
+
+.season_block img {
+  width: 100%;
+}
+
+.season_block article .clock,
+.season_block2 article .clock {
+  background-color: #191b1c;
+  margin-bottom: 25px;
+  padding: 30px 0px;
+}
+
+.name {
+  font-family: "Playfair Display SC";
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-family: "Playfair Display SC";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #d0d0d0;
+}
+/* --------SEASON------- */
+/* --------SEACTION_TWO------- */
+.secrion_two_wrap {
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+.secrion_two_wrap h2 {
+  padding-top: 80px;
+  margin: auto;
+  position: relative;
+}
+.section_two_img {
+  width: 45%;
+}
+.section_two_text {
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+}
+.section_two_text p {
+  font-size: 14px;
+  line-height: 150%;
+  padding: 70px 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.secrion_two_wrap button {
+  margin-top: 100px;
+}
+
+/* --------SEACTION_TWO------- */
+/* --------SEACTION_TREE------- */
+.section_tree {
+  color: white;
+  background: black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Playfair Display SC";
+}
+.section_tree_wrap {
+  display: flex;
+  flex-flow: wrap;
+  text-align: center;
+}
+.section_tree_article {
+  width: 25%;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+.section_tree_article img {
+  width: 100%;
+}
+/* --------SEACTION_TREE------- */
+/* -------section_four------- */
+.section_four_wrap {
+  background-color: #0f0f0f;
+}
+.section_four h2 {
+  margin: auto;
+  color: #fff;
+  padding-top: 60px;
+}
+.section_four_logos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-bottom: 80px;
+}
+/* -------section_four------- */
+/* ------FOOTER------- */
+footer {
+  background-image: url(../img/Rectangle\ 15.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+  color: #fff;
+}
+.footer_block1,
+.footer_block2,
+.footer_block3 {
+  width: 33.333%;
+  padding-bottom: 80px;
+}
+.footer_wrap {
+  display: flex;
+  align-items: center;
+  padding: 50px 0px;
+}
+.footer_block1 p,
+.footer_block3 p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.footer_block2 {
+  display: flex;
+  flex-flow: wrap;
+}
+.footer_block2_goods {
+  background-color: #0f0f0f;
+  padding: 20px 10px;
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 150%;
+  color: #d0d0d0;
+  margin: 10px;
+}
+.footer_block3 input {
+  width: 210px;
+  height: 42px;
+  border: none;
+  border-radius: 0%;
+  background: rgba(255, 255, 255, 0.4);
+  margin: 40px 0px;
+}
+.footer_block3_button {
+  width: 140px;
+  height: 42px;
+  border: none;
+  border-radius: 0%;
+  background-color: #0f0f0f;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+.footer_block2_goods_wrap {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: wrap;
+  width: 400px;
+}
+.under_footer {
+  background-color: #000;
+  font-family: "PT Sans";
+  color: #969696;
+  font-size: 12px;
+  line-height: 16px;
+  width: 100%;
+}
+.copyri {
+  display: flex;
+  margin-right: 10px;
+  padding: 17px 0px;
+}
+.underfooter_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.copyri2 {
+  text-decoration: underline;
+}
+
+/* ------FOOTER------- */
+/* -------MEDIA QUERIES------ */
+@media screen and (max-width: 1140px) {
+  .nav_links {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .season_blocks {
+    width: 100%;
+  }
+  .season_collections,
+  .section_two_img {
+    width: 100%;
+    height: 500px;
+  }
+  .section_tree_article {
+    width: 50%;
+    padding: 0px 25px;
+  }
+  .logo_sqare_info {
+    font-size: 18px;
+    padding: 20px 120px;
+  }
+  .section_two_text {
+    width: 100%;
+  }
+  .section_two_text p {
+    font-size: 18px;
+    padding: 6  0px 120px;
+  }
+  .section_two_text .button {
+    margin-top: 0px 0px;
+  }
+  .section_four_logos {
+    display: block;
+    margin: auto;
+  }
+  .footer_wrap {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .topnav {
+    display: none;
+  }
+  .logo_sqare_info {
+    font-size: 16px;
+    padding: 20px 190px;
+  }
+  .season_block article {
+    width: 100%;
+  }
+  .season_blocks {
+    width: 100%;
+  }
+  .season_collections,
+  .section_two_img {
+    width: 100%;
+    height: 500px;
+  }
+
+  .section_two_text {
+    width: 100%;
+  }
+  .section_two_text p {
+    font-size: 16px;
+    margin: 60px 0px;
+  }
+  .section_tree_article {
+    width: fit-content;
+    padding: 0px 85px;
+  }
+  .section_tree_wrap h2 {
+    font-size: 23px;
+  }
+  .section_four :nth-child(1) img {
+    margin-top: 30px;
+  }
+  .section_four_logos {
+    width: fit-content;
+    display: block;
+    margin: auto;
+  }
+  .footer_wrap {
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .logo_sqare {
+    height: 220px;
+    width: 220px;
+  }
+  .logo_sqare_info {
+    font-size: 12px;
+    padding: 10px 230px;
+  }
+  .h2 {
+    font-size: 12px;
+  }
+  .season_collections,
+  .section_two_img {
+    height: auto;
+  }
+  .section_two_img {
+    height: auto;
+  }
+  .button {
+    padding: 5px 10px;
+    font-size: 8px;
+  }
+  .section_two_text p {
+    font-size: 14px;
+    padding: 60px 20px;
+  }
+  .section_two_text .button {
+    margin-top: 0px;
+  }
+  .section_tree_article {
+    width: inherit;
+    padding: 0px 20px;
+  }
+  .section_tree_article img {
+    width: 100%;
+  }
+  .clock {
+    font-size: 7px;
+  }
+  .section_tree_wrap {
+    align-items: center;
+    padding: 0px 0px;
+  }
+  .section_tree_wrap h2 {
+    font-size: 23px;
+  }
+  .section_four :nth-child(1) img {
+    margin-top: 30px;
+  }
+  .footer_wrap {
+    padding: 0px 20px;
+  }
+  .footer_block1 p {
+    font-size: 10px;
+    padding: 10px 0px;
+  }
+  .footer_block1,
+  .footer_block2,
+  .footer_block3 {
+    width: 100%;
+    padding: 0px 0px;
+    margin-bottom: 30px;
+  }
+  .footer_block2_goods {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .footer_block3_button,
+  input {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .footer_block3 input {
+    width: 100%;
+    margin: 1 0px 0px;
+  }
+  .under_footer {
+    display: none;
+  }
+}
